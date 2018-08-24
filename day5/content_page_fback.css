@@ -1,0 +1,76 @@
+/* ----------page--------- */
+.page {
+    margin-top: 20px;
+}
+
+.row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.turnpage {
+    margin: 10px 3em 14px 0;
+    float: left;
+}
+
+a.sp-a {
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.turnpage a {
+    margin-right: 20px;
+}
+.turnpage a:hover {
+    text-decoration: underline;
+    color: rgb(255, 167, 0);
+}
+input.num {
+    width: 30px;
+    height: 30px;
+    margin: auto 5px;
+}
+.page>p {
+    float: left;
+    line-height: 50px;
+}
+
+a.sp-s {
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    margin: 10px auto 10px 50px;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 167, 0);
+}
+
+a.sp-s:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* ----------feedback---------- */
+.feedback {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.feedback img {
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.feedback p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.feedback .sp-f {
+    padding-bottom: 15px;
+    color: rgb(26, 190, 191);
+    font-size: 20px;
+}

@@ -1,0 +1,317 @@
+/* --------背景及文字-------- */
+.topbanner::before {
+    display: table;
+    content: "";
+}
+
+
+.topbanner {
+    width: 100%;
+    height: 800px;
+    background: url("../images/aboutme-bg.jpg") no-repeat;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.greeting {
+    /* margin-top: 10%; */
+    position: absolute;
+    top: 250px;
+    margin-left: 137px;
+    color: rgb(189, 195, 199);
+}
+
+.hi {
+    font-size: 45px;
+    color: white;
+}
+
+.name {
+    display: inline-block;
+    margin-top: 18px;
+    line-height: 40px;
+    color: rgb(130, 204, 243);
+}
+
+/* ------aboutme按钮------ */
+.aboutme-btn {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 10px 15px;
+    top: 500px;
+    /* margin-top: 450px; */
+    margin-left: 137px;
+    border: 3px solid rgb(189, 195, 199);
+    transition: 0.3s;
+}
+
+.aboutme-btn:hover {
+    background: rgb(130, 204, 243);
+    color: white;
+    border: 3px solid rgb(130, 204, 243);
+}
+
+/* ---------cutline分割线------- */
+.cutline {
+    height: 70px;
+    width: 100%;
+}
+
+.cutline a {
+    display: inline-block;
+    color: black;
+    margin-left: 137px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left: 3px solid rgb(130, 204, 243);
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.rgb-gray {
+    background: rgb(245, 245, 245);
+}
+/* ----------aboutme个人简介-------- */
+
+.aboutme-bg {
+    width: 100%;
+    height: 600px;
+}
+
+ul.aboutme-name {
+    list-style: disc;
+    float: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-right: 3px solid rgb(11, 75, 109);
+}
+
+ul.aboutme-name li {
+    float: none;
+}
+
+ul.aboutme-intro {
+    width: 400px;
+    margin-left: 50px;
+    float: left;
+}
+
+ul.aboutme-intro li {
+    float: none;
+}
+
+.aboutme-logo img {
+    width: 300px;
+    height: 300px;
+    margin-top: 131px;
+    margin-left: 160px;
+}
+
+.aboutme-name,
+.aboutme-intro {
+    margin-top: 20px;
+}
+
+.aboutme-content {
+    width: 700px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 20px;
+    background: white;
+    color: black;
+    box-shadow: 0 0 15px 3px rgba(51, 51, 51, 0.53);
+}
+
+.myhobby {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.myhobby p {
+    width: 1000px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 171px;
+}
+
+.myhobby ul {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+    overflow: hidden;
+}
+
+.myhobby li {
+    margin: 0 60px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.myhobby img {
+    width: 500px;
+    transition: 0.5s;
+}
+
+.myhobby img:hover {
+    transform: scale(1.5, 1.5);
+}
+
+/* -----------skill----------- */
+.skill {
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.skill>div {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 34px;
+    font-size: 20px;
+    border-right: 6px solid rgb(11, 75, 109);
+    position: absolute;
+    float: left;
+}
+
+.skill ul {
+    margin-left: 356px;
+}
+.skill li {
+    margin: 0 60px;
+}
+
+.skill span {
+    color: rgb(141, 144, 156);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.gray {
+    display: inline-block;
+    height: 40px;
+    width: 800px;
+    background: rgb(189, 195, 199);
+    border-radius: 10px;
+}
+
+.skill ul li {
+    position: relative;
+    float: none;
+}
+
+p.cover {
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+}
+
+p.html {
+    background: rgb(26, 188, 156);
+    /* width: 600px; */
+    width: 0px;
+}
+
+p.css {
+    background: rgb(52, 152, 219);
+    /* width: 500px; */
+    width: 0px;
+}
+
+p.javascript {
+    background: rgb(211, 84, 0);
+    /* width: 400px; */
+    width: 0px;
+}
+
+p.python {
+    background: rgb(52, 73, 94);
+    /* width: 550px; */
+    width: 0px;
+}
+
+/* --------------contact me------------ */
+ul.contact {
+    overflow: auto;
+    margin-top: 9px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact li {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+}
+
+.contact li:first-of-type {
+    margin-left: 213px;
+}
+.contact li:not(:last-child){
+    margin-right: 20px;
+}
+
+.contact li img:first-of-type {
+    margin-top: 70px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.contact li img:first-of-type:hover {
+    box-shadow: 0 0 15px 3px rgba(51, 51, 51, 0.3);
+    
+    transition: all 0.5s ease-in-out;
+}
+.phone .hidden,
+.wechat .hidden,
+.qq .hidden {
+    /* display: none; */
+    opacity: 0;
+    width: 190px;
+    box-shadow: 0 0 10px 2px rgba(51, 51, 51, 0.3);
+    -webkit-transition: all 0.5s ease-in-out;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+}
+
+.phone .hidden {
+    /* display: none; */
+    /* position: absolute; */
+    /* top: 86px; */
+    /* left: 0; */
+}
+
+.contact li img:first-of-type:hover~img {
+    /* display: block; */
+    opacity: 1;
+}
+
+/* .contact li img:first-of-type:hover {
+    display: none;
+} */
+/* .phone img:hover~img {
+    display: block;
+}
+
+.qq img:hover~img {
+    display: block;
+}
+
+.wechat img:hover~img {
+    display: block;
+} */
+
+

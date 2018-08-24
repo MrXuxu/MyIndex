@@ -1,0 +1,81 @@
+.row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.nav-wrap {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav-center {
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/* --------nav-right--------- */
+.local-img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    background: url("images/location.png") no-repeat center center;
+}
+
+.nav-left a {
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.nav-left {
+    float: left;
+    width: 300px;
+}
+
+/* ------nav-center------- */
+.nav-center li {
+    list-style-type: none;
+    float: left;
+}
+
+.nav-center a {
+    display: inline-block;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;   
+    font-size: 17px;
+}
+
+.nav-center a:hover {
+    background-color: #ccc;
+}
+
+/* ------right-nav------ */
+.nav-right {
+    float: left;
+    width: 300px;
+    height: 40px;
+    text-align: right;
+}
+.adm-img {
+    height: 40px;
+    width: 40px;
+    margin-left: 208px;
+    float: left;
+    background: url("images/adm.png") no-repeat center center;
+}
+
+.nav-right a {
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}

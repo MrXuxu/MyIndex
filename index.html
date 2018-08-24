@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hello</title>
+    <link rel="stylesheet" href="css/curency.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/galary.css">
+    <style>
+        #myteam {
+            position: absolute;
+            bottom: 0;
+            right: 5px;
+            display: block;
+            padding: 10px 20px;
+            line-height: 30px;
+            text-align: center;
+            color: black;
+            opacity: 0;
+            transition: 0.3s;
+        }
+        #myteam:hover {
+            opacity: 1;
+            box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.3); 
+        }
+        #contactteam {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="topbanner">
+        <div class="header" id="headee">
+            <div class="nav">
+                <div class="nav-left">
+                    <a href="https://github.com/MrXuxu/"><img src="images/adm.jpg" alt=""></a>
+                    <span>Xuxuの前端之行</span>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li id="homec"><a href="#">HOME</a></li>
+                        <li id="about"><a>ABOUT</a></li>
+                        <li class="hobbyc"><a id="hobbyc">HOBBY</a></li>
+                        <li class="skillc"><a id="skillc">SKILL</a></li>
+                        <li class="workc"><a id="workc">WORK</a></li>
+                        <li class="contactc"><a id="contactc">CONTACT</a></li>       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h1 class="greeting">
+            <span class="hi">Hi, 你好</span><br>
+            <span class="name">
+                我叫徐保山<br>
+                一个前端工程师
+            </span>
+        </h1>
+        <a href="#aboutme" class="aboutme-btn">ABOUT ME</a>
+    </div>
+    <div class="cutline rgb-gray" id="about-me">
+        <a name="aboutme">ABOUT ME</a>
+    </div>
+    <div class="aboutme-bg">
+        <ul>
+            <li class="aboutme-logo"><img src="images/aboutme-logo.png" alt="" class="aboutme-logo"></li>
+            <li class="aboutme-content">
+                <ul class="aboutme-name">
+                    <li>姓名：徐保山</li>
+                    <li>籍贯：湖北</li>
+                    <li>学校：湖北大学知行学院</li>
+                    <li>专业：计算机软件工程</li>
+                    <li>方向：web前端工程师</li>                            
+                </ul>
+                <ul class="aboutme-intro">
+                    <li>
+                        计算机专业毕业生，web前端中级，在大学期间学习的HTML以及CSS技术，熟练掌握各种静态页面的实现
+                    </li>       
+                </ul>   
+            </li>
+        </ul>
+    </div>  
+    <div class="myhobby">
+        <div class="cutline rgb-gray">
+            <a name="myhobby" id="hobbyb">MY HOBBY</a>
+        </div>
+        <p>
+            我的兴趣爱好非常广泛，但主要在于四个，coding、阅读以及游泳和旅行
+        </p>
+        <ul>
+            <li><img src="images/coding.jpg" alt=""></li>
+            <li><img src="images/reading.jpg" alt=""></li>
+        </ul>
+        <ul>
+            <li><img src="images/swiming.jpg" alt=""></li>
+            <li><img src="images/travelling.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="cutline rgb-gray">
+        <a name="skill">MY SKILL</a>
+    </div>
+    <div class="skill">
+        <div>
+            我在大学期间自学的web前端方面的技能，熟练掌握HTML/CSS静态页面的实现，了解javascript的语言特性，
+            并掌握bootstrap以及Jquery框架的使用
+        </div>
+        <ul >
+            <li>
+                <span>HTML</span><br>
+                <p class="gray"></p>
+                <p class="html cover"></p>
+            </li>
+            <li>
+                <span>CSS</span><br>
+                <p class="gray"></p>
+                <p class="css cover"></p>
+            </li>
+            <li>
+                <span>JAVASCRIPT</span><br>
+                <p class="gray"></p>
+                <p class="javascript cover"></p>
+            </li>
+            <li>
+                <span>PYTHON</span><br>
+                <p class="gray"></p>
+                <p class="python cover"></p>
+            </li>
+        </ul>
+    </div>
+    <div class="cutline rgb-gray">
+        <a name="work">WORK EXHIBITION </a>
+    </div>
+    <div class="work">
+        <div class="galary row">
+            <div class="galary-page">
+                <p>诗意生活</p>
+                <a href="day2/作业一/index.html"><img src="images/1.png" alt=""></a>
+            </div>  
+            <div class="galary-page one">
+                <p>个人网站</p>
+                <a href="day2/作业二/index.html"><img src="images/2.png" alt=""></a>
+            </div>
+                             
+            <div class="galary-page">
+                <p>广州远大</p>                          
+                <a href="day3/index.html"><img src="images/3.png" alt=""></a>
+            </div>
+            <div class="galary-page">
+                <p>家居医生一</p>
+                <a href="day4/index.html"><img src="images/4.png" alt=""></a>
+            </div>
+            <div class="galary-page">
+                <p>家居医生二</p>
+                <a href="day5/index.html"><img src="images/5.png" alt=""></a>
+            </div>             
+        </div>
+        <div class="galary row">
+            <div class="galary-page">
+                <p>小米登录</p>
+                <a href="day9/index.html"><img src="images/6.png" alt=""></a> 
+            </div> 
+            <div class="galary-page one">
+                <p>小米官网</p>
+                <a href="小米官网/index.html"><img src="小米官网/images/xiaomi.png" alt=""></a>            
+            </div>      
+            <div class="galary-page">
+                <p>木兮地板</p>
+                <a href="muxifloor/index.html"><img src="images/muxifloor.png" alt=""></a>
+            </div>
+            <div class="galary-page">
+                <p>待展示</p>
+            </div>
+            <div class="galary-page">
+                <p>待展示</p>
+            </div>       
+        </div>
+    </div>
+    <div class="cutline rgb-gray">
+        <a name="contact">CONTACT ME</a>
+    </div>
+    <div id="contactteam">
+        <ul class="contact">
+            <li class="phone">
+                <img src="images/phone.png" alt="">
+                <img src="images/phonenumber.png" alt="" class="hidden">
+            </li>
+            <li class="wechat">
+                <img src="images/wechat.png" alt="">
+                <img src="images/wechatcode.png" alt="" class="hidden">
+            </li>
+            <li class="qq">
+                <img src="images/qq.png" alt=""><br>
+                <img src="images/qqcode.png" alt="" class="hidden">
+            </li>
+        </ul>
+        <a href="https://mrxuxu.gitee.io/myteam" id="myteam">Return</a>
+    </div>
+    
+    <script src="js/scrollTop.js"></script>
+    <script src="lib/jquery-3.3.1.js"></script>
+    <script src="js/scrollnav.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>

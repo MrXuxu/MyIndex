@@ -1,0 +1,462 @@
+/* --------布局------- */
+
+
+/* ---------top--------- */
+.top {
+    width: 100%;
+    height: 30px;
+    background: #fafafa;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.top-nav {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.top-nav span {
+    margin: 0 7px;
+}
+
+.top-nav div {
+    float: right;
+}
+
+/* -------logo-------- */
+.content-logo {
+    margin-top: 20px;
+}
+
+.logo-right {
+    float: right;
+    position: relative;
+    /* width: 300px; */
+}
+
+.logo-right>img {
+    /* vertical-align: bottom; */
+    position: absolute;
+    top: 3px;
+    right: 100px;
+}
+.logo-right span.open {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 12px;
+}
+
+.logo-right input:first-of-type {
+    /* position: absolute; */
+    /* top: 30px; */
+    /* right: 100px; */
+    height: 35px;
+    width: 350px;
+    margin-top: 10px;
+    margin-right: 32px;
+    outline: none;
+    font-size: 12px;
+}
+
+.logo-right input:nth-of-type(2) {
+    position: absolute;
+    top: 28px;
+    right: 110px;
+    height: 35px;
+    width: 35px;
+    background: #fff url("../images/fangdajing.png") no-repeat center center;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.logo-right>span {
+    position: absolute;
+    /* margin-right: 7px; */
+    top: 38px;
+    right: 148px;
+    font-size: 12px;
+}
+
+.logo-right>a {
+    display: inline-block;
+    /* margin-left: 20px; */
+    width: 100px;
+    line-height: 35px;
+    background: rgb(255, 219, 61);
+}
+/* ----全部商品分类部分---- */
+.content-sort {
+    /* height: 700px; */
+    margin-top: 20px;
+}
+
+.content-nav {
+    height: 40px;
+    background: #ccc;
+}
+
+.content-nav>ul>li a {
+    color: #fff;
+}
+.content-nav>ul>li.all-sort {
+    width: 20%;
+    /* float: left; */
+    background: rgb(255, 74, 0);
+}
+.content-nav>ul>li {
+    width: 8%;
+    float: left;
+    line-height: 40px;
+
+    background: rgb(64, 65, 68);
+    text-align: center;
+}
+
+/* -----------sort分类--------- */
+/* .sort {
+    border-left: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+} */
+.content-nav>ul>li:hover {
+    background: #ccc;
+}
+
+.content-sort-left {
+    width: 20%;
+    float: left;
+}
+
+.content-sort-left li {
+    /* width: 100%; */
+    height: 70.59px;
+    font-size: 12px;
+    padding: 20px 20px 10px 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.content-sort-left li {
+    border-left: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230)
+}
+
+.content-sort-left li span {
+    color: rgb(255, 74, 0);
+}
+.content-sort-right {
+    width: 80%;
+    float: left;
+    position: relative;
+}
+
+.sort-banner img {
+    width: 100%;
+}
+.sort-banner>span {
+    display: inline-block;
+    position: absolute;
+    top: 363px;
+    right: 20px;
+}
+.sort-banner>span>span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(128, 128, 128);
+    background: rgb(70, 68, 68);
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.under-sort-banner {
+    /* width: 80%; */
+    float: left;
+    /* position: absolute; */
+    margin-top: 401.64px;
+    z-index: 999;
+}
+
+.under-sort-banner img {
+    width: 33.33333333%;
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+/* --------明星单品bar------- */
+.first span:nth-of-type(2){
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
+.first span:nth-of-type(3) {
+    float: right;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 0;
+}
+
+.first span:not(:last-of-type){
+    line-height: 55px;
+}
+.first input:first-of-type {
+    width: 30px;
+    height: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    background: #fff url("../images/05.png") no-repeat center center;
+}
+
+.first input:nth-of-type(2) {
+    width: 30px;
+    height: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    background: #fff url("../images/06.png") no-repeat center center;
+}
+/* -------明星单品------- */
+.start li {
+    float: left;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+}
+.start li:not(:last-of-type) {
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.start img {
+    width: 75%;
+}
+
+.start li p:nth-of-type(2) {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+/* ------新品上架bar----- */
+.second span {
+    display: inline-block;
+    margin-top: 30px;
+}
+.second span:nth-of-type(2) {
+    float: right;
+}
+
+
+/* --------left--------- */
+.left, .right {
+    height: 900px;
+    float: left;
+}
+
+/* .new ul.yhalf {
+    float: left;
+} */
+
+.new>div>div>img {
+    width: 100%;
+}
+/* .li-half {
+    float: left;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+
+#cloth, #shouhuan,#baohuke
+#zipaigan, #shouhuan,#xianfengerji {
+    padding: 20px;
+}
+#cloth img {
+    width: 80%;
+    margin-left: 20px;
+}
+#baohuke img {
+    width: 45%;
+    margin-left: 65px;
+}
+#zipaigan img {
+    width: 82%;
+    margin-left: 19px;
+}
+#shouhuan img {
+    width: 80%;
+    margin-left: 19px;
+}
+#xianfengerji img {
+    width: 80%;
+    margin-left: 19px;
+}
+/* -------right-bar------ */
+#sp-price {
+    padding: 0 10px 20px 20px;
+}
+#sp-price img {
+    width: 80px;
+    float: right;
+}
+#sp-price span:first-of-type {
+    margin-left: 60px;
+    background: red;
+    color: white;
+}
+#sp-price span:nth-of-type(2) {
+    display: inline-block;
+    margin-top: 20px;
+}
+#sp-price span:nth-of-type(3) {
+    color: red;
+}
+#sp-price span:nth-of-type(4) {
+    text-decoration: line-through;
+}
+#mitu {
+    padding: 20px;
+}
+#mitu img{
+    float: right;
+    width: 90px;
+}
+#play {
+    padding: 20px;
+}
+#play img{
+    float: right;
+    width: 90px;
+}
+#rightbar-ul {
+    height: 540px;
+    background: rgb(250, 250, 250);
+}
+#rightbar-ul ul {
+    width: 80%;
+    margin: 40px 20px 20px 20px;
+}
+#rightbar-ul li:first-of-type {
+    color: red;
+}
+#rightbar-ul li {
+    /* border-top: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+#rightbar-ul li span {
+    float: right;
+}
+form {
+    margin: 10px 20px auto 20px;
+}
+#rightbar-ul form input,
+#rightbar-ul form select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 235.56px;
+    height: 35px;
+}
+#rightbar-ul form input:nth-of-type(2){
+    background: rgb(220, 222, 228);
+    border: none;
+    outline: none;
+}
+/* -----------bottom------- */
+.bottom {
+    margin-top: 55px;
+    background: #fafafa;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.bottom .service li {
+    padding: 20px;
+}
+
+.service img {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.bottom .help>ul {
+    margin-top: 20px;
+    /* width: 100%; */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    /* padding: 20px; */
+}
+.bottom .help>ul>li {
+    width: 180px;
+}
+.bottom .help>ul>li>ul {
+    width: 100%;
+}
+/* .bottom .help>ul>li:first-of-type {
+    padding: 30px 0
+} */
+.bottom .help>ul>li {
+    padding: 30px 0 30px 30px;
+}
+.bottom .help>ul>li>ul {
+    border-right: 1px solid #ccc;
+}
+
+.bottom .help>ul>li>ul>li.title {
+    font-size: 14px;
+}
+.bottom .help>ul>li>ul>li {
+    width: 100%;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#contact {
+    /* width: 100%; */
+    width: 285px;
+    height: 159.2px;
+    text-align: center;
+    /* border-left: 1px solid #ccc; */
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 40px;
+    position: relative;
+}
+.footer span {
+    margin: 0 7px;
+}
+.footer img {
+    position: absolute;
+    top: 56px;
+    left: 360px;
+    width: 160px;
+    /* margin-top: 5px; */
+}
+.footer select {
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+}
+.new div,
+.start li {
+    background-color: #fff;
+}
+
+.padding-2 {
+    padding: 20px;
+}
+
+#contact a {
+    /* display: inline-block; */
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(255, 74, 0);
+}

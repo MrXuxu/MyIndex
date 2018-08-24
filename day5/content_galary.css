@@ -1,0 +1,44 @@
+.galary {
+    margin-top: 20px;
+}
+
+.row::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.galary>div {
+    float: left;
+    width: 240px;
+    height: 350px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+}
+
+.galary>div:not(:last-child) {
+    margin-right: 13.333px;
+}
+
+.galary p {
+    font-size: 14px;
+}
+.galary .sp-t {
+    margin-top: 7px;
+}
+.galary .sp-p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: rgb(24, 190, 190);
+}
+
+.galary>div:hover .sp-p{
+    color: inherit;
+}
+
+.galary>div:hover {
+    color: rgb(255, 167, 0);
+    background-color: #ccc;
+}

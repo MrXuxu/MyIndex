@@ -1,0 +1,52 @@
+.work {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.galary {
+    width: 75%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.galary-page {
+    width: 160px;
+    height: 130px;
+    margin: 28px 20px;
+    float: left;
+    position: relative;
+    box-shadow: 0 0 3px 1px rgba(51, 51, 51, 0.2);
+    transition: 0.3s;
+}
+
+.galary-page:hover {
+    margin-top: 15px;
+    box-shadow: 0 5px 15px 5px rgba(51, 51, 51, 0.5);
+}
+.row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* -------封面------- */
+.galary-page img {
+    width: 160px;
+    height: 130px;
+}
+
+.galary-page:hover p {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    top: 0;
+}
+
+.galary-page p{
+    display: none;
+}
