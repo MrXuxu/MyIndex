@@ -52,10 +52,10 @@ $(window).scroll(function () {
     //以下是技能条的动态效果
     if(scroll>=2228){
         
-        $(".html").animate({width:'600px'}, 1000);
-        $(".css").animate({width: "500px"}, 1000);
-        $(".javascript").animate({width: "400px"}, 1000);
-        $(".python").animate({width: "400"}, 1000);
+        $(".html").animate({width:'700px'}, 1000);
+        $(".css").animate({width: "750px"}, 1000);
+        $(".javascript").animate({width: "650px"}, 1000);
+        $(".python").animate({width: "600"}, 1000);
     } 
     
 })

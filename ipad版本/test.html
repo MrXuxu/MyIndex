@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 1000px;
+            display: flex;
+        }
+        .box>div {
+            height: 44px;
+            border-radius: 5px 5px 0 0;
+            background: url("images/head1.png") repeat-x;
+        }
+        .left {
+            width: 200px;
+        }
+        .right {
+            width: 800px;
+        }
+        .shop {
+            width: 200px;
+            height: 65px;
+            background: url("images/block.png") repeat-x;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="header"></div> -->
+    <div class="box">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="shop"></div>
+    <script>
+        $(function(){
+            $("ul>li").addClass("on").siblings().removeClass("on");
+            $(".content>div").eq($(this).index).show.siblings().hide();
+        })
+    </script>
+
+</body>
+</html>

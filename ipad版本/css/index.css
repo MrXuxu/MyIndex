@@ -1,0 +1,362 @@
+/* ------------base------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.fs {
+    font-size: 12px;
+}
+.fsb {
+    font-size: 16px;
+}
+.lt {
+    text-align: left!important;
+    /* padding-left: 30px; */
+}
+.fr {
+    float: right;
+}
+div::before {
+    display: table;
+    content: " ";
+}
+div, table {
+    box-sizing: border-box;
+}
+/* ------------common----------- */
+.gold {
+    color: rgb(208, 162, 113)!important;
+}
+.red {
+    color: rgb(128, 53, 23);
+}
+.pl {
+    padding-left: 17px;
+}
+.pr {
+    padding-right: 42px;
+}
+.deepred {
+    color: rgb(182, 40, 26);
+}
+/* ------------index------------ */
+.container {
+    width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    width: 300px;
+    float: left;
+}
+.header {
+    width: 300px;
+    height: 44px;
+    border-radius: 5px 5px 0 0;
+    background: url("../images/head1.png") repeat-x;
+    position: relative;
+}
+.header>img {
+    position: absolute;
+}
+.header>p {
+    margin-left: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+.header>p:first-of-type {
+    margin-top: 3px;
+}
+
+
+.local {
+    width: 300px;
+    height: 65px;
+    background: url("../images/block.png") repeat-x;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5) inset;
+    position: relative;
+
+}
+.local img {
+    position: absolute;
+}
+.local p:first-of-type img {
+    top: 8px;
+    left: 14px;
+}
+.local p:nth-of-type(2) img {
+    top: 33px;
+    left: 13px;
+}
+.local>p {
+    margin-top: 9px;
+    margin-left: 40px;
+    /* font-weight: bold; */
+}
+.local span>i {
+    font-style: normal;
+    margin: 0 5px;
+}
+
+.account {
+    width: 300px;
+    /* height: 411px; */
+    background: url(../images/shouzhi-banner.png);
+
+    position: relative;
+}
+.shouzhi {
+    /* width: 300px; */
+    height: 43px;
+    background: url("../images/block2.png") repeat-x;
+    line-height: 43px;
+    color: #fff;
+}
+.shouzhi>img {
+    margin-left: 13px;
+    position: relative;
+    top: 4px;
+}
+
+/* -----表格开始----- */
+.buy {
+    width: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0 7px 10px -5px rgba(0, 0, 0, .5);
+}
+
+.buy tr {
+    height: 44px;
+    border-bottom: 1px solid rgb(193, 172, 151);
+    background: linear-gradient(#fff, rgb(235, 219, 196));
+}
+.buy td {
+    /* width: 50px; */
+}
+.buy tr td:first-of-type {
+    /* width: 80px; */
+    padding-left: 17px;
+}
+.buy tr td:last-of-type {
+    padding-right: 42px;
+}
+.buy tr span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgb(182, 40, 26);
+    border-radius: 50%;
+    position: absolute;
+    left: -1px;
+    /* top: 10px; */
+}
+/* -----表格结束------ */
+
+.btns {
+    width: 40px;
+    height: 508px;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+
+    position: absolute;
+    right: 0;
+    top: 43px;
+}
+.btns a:first-of-type img {
+    margin-top: 20px;
+}
+.btns img {
+    margin-top: 10px;
+}
+
+/* -----pay----- */
+.pay {
+    height: 140px;
+    margin-top: 146px;
+    background: rgb(243, 231, 191);
+    box-shadow: 0 -7px 10px -5px rgba(0, 0, 0, .5);
+}
+.pay>p {
+    width: 200px;
+    padding: 12px;
+    margin: 31px 0 0 11px;
+    background-color: rgb(242, 241, 211);
+}
+
+.search {
+    width: 180px;
+    height: 28px;
+    border-radius: 13px;
+    margin: 10px auto auto 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.btn {
+    width: 38px;
+    height: 30px;
+    background: #fff url("../images/search.png") no-repeat center center;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+
+    position: relative;
+    top: 9px;
+}
+.close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff url("../images/close.png") no-repeat center center;
+    outline: none;
+    border: none;
+    
+    position: relative;
+    left: -82px;
+    top: 6px;
+}
+.bottom {
+    height: 79px;
+    padding: 5px 7px;
+    background-color: rgb(53, 47, 29);
+    color: #fff;
+}
+
+/* ----------right--------- */
+.right {
+    float: left;
+    height: 738px;
+    overflow: hidden;
+}
+.header2 {
+    width: 725px;
+    height: 44px;
+    border-radius: 5px 5px 0 0;
+    background: url("../images/head1.png") repeat-x;
+}
+.banner {
+    /* height: 675px; */
+    background-color: rgb(53, 47, 39);
+}
+.pages {
+    margin-top: 16px;
+    margin-left: 63px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.pages a:not(:last-child) {
+    width: 105px;
+    height: 50px;
+    background-color: rgb(236, 189, 133);
+    color: rgb(153, 97, 58);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px 3px 0 0;
+}
+.on {
+    color: #fff !important;
+    background-color: rgb(182, 40, 26) !important;
+}
+.turn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    /* background-color: rgb(236, 189, 133); */
+    color: rgb(153, 97, 58);
+    border-radius: 3px 3px 0 0;
+    /* background: rgb(236, 189, 133) url("../images/turn2") no-repeat center center; */
+    background: rgb(236, 189, 133) url("../images/turn2.png") no-repeat center center;
+}
+
+.menu {
+    width: 704px;
+    height: 558px;
+    background: url("../images/right-banner.png");
+    margin-left: 5px;
+    position: relative;
+    top: -6px;
+    box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, .5);
+}
+
+.content {
+    position: absolute;
+}
+.hide {
+    display: none;
+}
+.food {
+    display: flex;
+    width: 600px;
+    margin-left: 63px;
+    margin-top: 20px;
+    padding-top: 18px;
+    justify-content: space-between;
+    border-top: 2px solid rgb(182, 40, 26);
+}
+.food>div {
+    width: 109px;
+    height: 67px;;
+    padding: 9px 12px;
+    box-shadow: 2px 2px 3px 2px rgba(236, 189, 133, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    /* box-sizing: content-box !important; */
+}
+.food>div:hover {
+    border: 2px solid rgb(182, 40, 26);
+}
+.food>div>p {
+    color: rgb(182, 40, 26);
+}
+.first {
+    position: relative;
+}
+.food img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btns2 {
+    /* float: left; */
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.btns2 p {
+    /* margin-left: 20px; */
+    color: #fff;
+}
+
+.collect {
+    /* float: left; */
+    position: relative;
+    top: -66px;
+    left: 570px;
+}
+.collect input {
+    width: 130px;
+    height: 50px;
+    background: rgb(182, 40, 26);
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.collect img {
+    position: absolute;
+    top: 11px;
+    left: 18px;
+}
